@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+        <template id="website_piwik" inherit_id="website.layout" name="Piwik for Website">
+            <xpath expr="//body/div['id=wrawrap']" position="after">
+                <script type="text/javascript" src="/website_piwik/static/src/js/website_piwik.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>
